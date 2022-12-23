@@ -17,5 +17,6 @@ class Hash
   # Make sure to implement an actual Hash#hash method
   def hash
     0
+    # self.to_a.sort_by { |key, value| key[value] }.hash
   end
 end
